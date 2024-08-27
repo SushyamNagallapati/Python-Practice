@@ -37,6 +37,8 @@ age = 23
 message = "Eligible" if age >= 18 else "Not Eligible"
 print(message)
 
+
+
 #Logical Operators
 '''There are 3 logical operators
 They are: and, or, not'''
@@ -81,3 +83,10 @@ good_credit = True
 student = True
 decision = "Eligible" if (high_income or good_credit) and not student else "Not Eligible"
 print(decision)
+
+
+#Chain Comparison Operator
+age = 50
+if 18 <= age < 65:
+    print("Eligible")
+    
