@@ -30,10 +30,54 @@ if age >= 18:
     message = "Eligible"
 else:
     message = "Not Elgible"
-print(message)
-    
+print(message)   
+
 #type3
 age = 23
 message = "Eligible" if age >= 18 else "Not Eligible"
 print(message)
+
+#Logical Operators
+'''There are 3 logical operators
+They are: and, or, not'''
+
+#type1 eg. for and operator
+high_income = False
+good_credit = True
+if high_income and good_credit:
+    print("Eligible")
+else:
+    print("Not Eligible")
     
+#type2 eg. for or operator
+high_income = True
+good_credit = False
+if high_income or good_credit:
+    print("Eligible")
+else:
+    print("Not eligible")
+
+#type3 eg. for not operator
+high_income = True
+good_credit = True
+student = True
+if not student:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+#type4 with all Logical Operators
+high_income = True
+good_credit = False
+student = True
+if (high_income or good_credit) and not student:
+    print("Eligible")
+else:
+    print("Not Eligible")
+    
+#this logic can be written in short form using ternary method
+high_income = True
+good_credit = True
+student = True
+decision = "Eligible" if (high_income or good_credit) and not student else "Not Eligible"
+print(decision)
