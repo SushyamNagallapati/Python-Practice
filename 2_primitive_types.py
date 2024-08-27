@@ -81,3 +81,8 @@ import math #first we have to import to use any type of function, here we used m
 print(math.ceil(3.5)) #math. is used to enable the mathematical functions
 print(math.copysign(4.7, -8.7)) #refer python3 mathematical funcions in web for more..
 print(math.factorial(5))
+
+#Type Conversion
+x = input("x: ")
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
