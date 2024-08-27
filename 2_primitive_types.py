@@ -48,3 +48,27 @@ print(name.find("Nag")) #find is used to search for the given word
 print(name.replace("S", "N")) #replace is used to replace one word to another
 print("Sush" in name) 
 print("Naruto" not in name) #not in is "not operator"
+
+#NUMBERS
+x = 100 #integer
+x = 1.6 #float
+x = 1 + 2j #a + bi complex numbers [in python we use j instead of i]
+#these are the 3 types of numbers we have in Python
+#Arithematic Operators
+print(5 + 2) #addition
+print(5 - 2) #subtraction
+print(5 * 2) #multiplication
+print(5 / 2) #division
+print(5 // 2) #if we want an integer we use double slash[//]
+print(5 % 2) #modulus [remainder of the division]
+print(5 ** 4) #exponent [5 to the power of 2(left to right)]
+#Augumented Assignment Operator
+x = 5
+x = x + 2 #this can be written as shown below👇🏼
+x += 2 #augumented assignment operator
+x -= 2
+x *= 2
+x /= 2
+x //= 2
+x %= 2
+x **= 2
