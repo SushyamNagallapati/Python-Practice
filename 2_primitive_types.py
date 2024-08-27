@@ -72,3 +72,12 @@ x /= 2
 x //= 2
 x %= 2
 x **= 2
+
+#Working with Numbers
+print(round(5.2)) #round function is used to round figure 
+print(abs(-50)) #abs is the absolute value of a number, which returns positive number
+
+import math #first we have to import to use any type of function, here we used math function
+print(math.ceil(3.5)) #math. is used to enable the mathematical functions
+print(math.copysign(4.7, -8.7)) #refer python3 mathematical funcions in web for more..
+print(math.factorial(5))
