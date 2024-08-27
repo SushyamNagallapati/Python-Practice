@@ -36,3 +36,15 @@ print(full_2)
 print(full_3)
 print(full_4)
 print(full_5)
+
+#String Methods
+name = "Sushyam Nagallapati"
+print(name)
+print(name.upper()) #makes all in capital letters
+print(name.lower()) #makes all in small letters
+print(name.capitalize()) #starting letter will be in capital
+print(name.strip()) #Strip is used to reduce the empty space at the first word
+print(name.find("Nag")) #find is used to search for the given word
+print(name.replace("S", "N")) #replace is used to replace one word to another
+print("Sush" in name) 
+print("Naruto" not in name) #not in is "not operator"
