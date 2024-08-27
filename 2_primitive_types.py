@@ -4,6 +4,7 @@ rating = 4.99 #float
 is_published =  True #boolean values sould start with capital letter
 course_name = "Python Programing" #String
 
+#Strings
 name = "Sushyam Nagallapati"
 print(len(name)) #len is the number of characters in the given string
 print(name[0])   #square bracket is used to get specific character of a String
@@ -12,11 +13,26 @@ print(name[0:])
 print(name[:])
 print(name[-5])
 
+#Escape Sequences
 name_1 = "Sushyam \"Nagallapati" #backslash(\) is an Escape Character. Backslash double quotes[\"] is an escape sequence
 name_2 = "Sushyam \'Nagallapati"
 name_3 = "Sushyam \\Nagallapati"
-name_4 = "Sushyam \nNagallapati"
+name_4 = "Sushyam \nNagallapati" #\n new line 
 print(name_1)
 print(name_2)
 print(name_3)
 print(name_4)
+
+#Formatted Strings
+first = "Sushyam"
+last = "Nagallapati"
+full_1 = first + " " + last
+full_2 = f"{first} {last}"        #f means formatted string
+full_3 = f"{len(first)} {last}"
+full_4 = f"{len(first)} {len(last)}"
+full_5 = f"{len(first)} {5+5}"
+print(full_1)
+print(full_2) 
+print(full_3)
+print(full_4)
+print(full_5)
