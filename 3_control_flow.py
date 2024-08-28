@@ -114,3 +114,9 @@ for number in range(3):
         break
 else:
     print("Try until u get")
+
+
+#Nested Loops -----> Putting one loop inside of another loop
+for x in range(5):
+    for y in range(2):
+        print(f"({x}, {y})")
