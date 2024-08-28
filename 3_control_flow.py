@@ -103,3 +103,14 @@ for number in range(0, 10):
 #type3
 for number in range(1, 10, 2):
     print("You Can", number, number * ".")
+
+
+#For...Else 
+stop = False
+for number in range(3):
+    print("Believe")
+    if stop:
+        print("You can Do it")
+        break
+else:
+    print("Try until u get")
