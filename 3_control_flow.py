@@ -90,3 +90,16 @@ age = 50
 if 18 <= age < 65:
     print("Eligible")
     
+
+#For Loops ----> "Loops are used to create repetition"
+#type1
+for number in range(5):
+    print("You Can", number)
+
+#type2
+for number in range(0, 10):
+    print("You Can", number + 1 , (number + 1) * ".")
+
+#type3
+for number in range(1, 10, 2):
+    print("You Can", number, number * ".")
