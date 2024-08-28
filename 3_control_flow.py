@@ -117,6 +117,16 @@ else:
 
 
 #Nested Loops -----> Putting one loop inside of another loop
-for x in range(5):
-    for y in range(2):
+for x in range(5):   #outer loop
+    for y in range(2):      #inner loop
         print(f"({x}, {y})")
+
+
+#Iterables -----> Python objects returning members one at a time, permitting it to be iterated over in a for loop
+#type1
+for x in "Sushyam":    #Strings are also Iterable
+    print(x)
+
+#type2
+for x in [1, 2, 3, 4, 5]:  #Lists are aslo Iterable
+    print(x)
