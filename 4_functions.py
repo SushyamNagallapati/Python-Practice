@@ -18,5 +18,14 @@ sai("Charen", "Bava")
 #2. Functions that calculate out and return a value
 def name(first_name, last_name):
     return f"Hi {first_name} {last_name}"
+
+
 message = name("sai", "raju")
 print(message) 
+
+
+
+#Keyword Arguments ----> Are used to make the code more readable
+def increment(number, by):
+    return number + by
+print(increment(number=2, by=1))
