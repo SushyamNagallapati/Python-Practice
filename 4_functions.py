@@ -28,4 +28,4 @@ print(message)
 #Keyword Arguments ----> Are used to make the code more readable
 def increment(number, by):
     return number + by
-print(increment(number=2, by=1))
+print(increment(2, by=1))
