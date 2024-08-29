@@ -45,3 +45,12 @@ def multiply(*numbers):
     return total
     
 print(multiply(2, 3, 4, 5))
+
+
+#**args
+def save_user(**user):
+    print(user["age"])
+    
+save_user(id=1, name="Sushyam", age=23)
+
+
