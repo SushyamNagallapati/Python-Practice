@@ -19,7 +19,7 @@ else:
 #Ternary Operator
 #type1
 age = 14
-if age>= 18:
+if age >= 18:
     print("Eligible")
 else:
     print("Not Eligible")
@@ -122,7 +122,7 @@ for x in range(5):   #outer loop
         print(f"({x}, {y})")
 
 
-#Iterables -----> Python objects returning members one at a time, permitting it to be iterated over in a for loop
+#Iterables -----> Python object returning members one at a time, permitting it to be iterated over in a for loop
 #type1
 for x in "Sushyam":    #Strings are also Iterable
     print(x)
@@ -130,3 +130,35 @@ for x in "Sushyam":    #Strings are also Iterable
 #type2
 for x in [1, 2, 3, 4, 5]:  #Lists are aslo Iterable
     print(x)
+
+
+#While Loops -----> It is used to repeat something until the as long as the condition is true
+#type1
+number = 100
+while number > 0:
+    print(number)
+    number //= 2
+
+number = 1
+while number <= 10:
+    print(number)
+    number += 1
+    
+
+number = 100
+while number > 0:
+    print(number)
+    number //=2
+
+#type2
+command = ""
+while command.lower() != "quit":   #if we use "lower", it always terminates the program(It does not require capital letter or small letter)
+    command = input(">")
+    print("ECHO", command)
+
+#type 3 how to use break statement in Infinite loops
+while True:
+    command = input(">")
+    print("ECHO", command)
+    if command.lower() == "quit":
+        break
