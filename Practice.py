@@ -80,9 +80,3 @@ if is_prime:
 else:
     print("%d Is not a prime number"%num)
 
-
-
-
-
-# for num in range(1, 11):
-#     print(num)
