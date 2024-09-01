@@ -96,3 +96,13 @@ def sort_item(item):   #----> sort_item is used to sort a list of items
 
 items.sort(key=sort_item)
 print(items)
+
+#Lambda Function
+#It is a onle line function, that we can pass to other functions (Compare above and below code, below code is shorter while we use lambda function)
+items = [
+    ("Product1", 10),
+    ("Product2", 8),
+    ("Product3", 50),
+]
+items.sort(key=lambda item: item[1])
+print(items)
