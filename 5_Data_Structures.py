@@ -71,8 +71,7 @@ print(letters.count("d"))
 if "d" in letters:
     print(letters.index("d"))
 
-
-# #Sorting Lists
+#Sorting Lists
 #Type1
 numbers = [1, 2, 5, 78, 95, 45, 3, 4, 50]
 numbers.sort()
@@ -106,3 +105,39 @@ items = [
 ]
 items.sort(key=lambda item: item[1])
 print(items)
+
+#Map function using Lambda
+#Type 1, without using lambda 
+items = [
+("Product1", 10),
+("Product2", 8),
+("Product3", 50),
+]
+
+prices = []
+for item in items:
+    prices.append(item[1])
+
+print(prices)
+
+
+#Type 2 using map function
+items = [
+    ("Product1", 10),
+    ("Product2", 8),
+    ("Product3", 50),
+]
+x = map(lambda item: item[1], items) #----> map() - Takes one function(lambda) and applies it to every item oh the iterable
+for item in x:
+    print(item)
+
+#Type 3 
+items = [
+    ("Product1", 10),
+    ("Product2", 8),
+    ("Product3", 50),
+]
+prices = list(map(lambda item: item[1], items))
+print(prices)
+for item in prices:
+    print(item)
