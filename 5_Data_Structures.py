@@ -236,3 +236,16 @@ x, y = (11, 10) #---> method 2
 
 print("x", x)
 print("y", y)
+
+
+#Arrays
+from array import array
+#type 1
+numbers = array("i", [1, 2, 3])
+numbers.insert(4, 4) #---> We can also use append, pop, remove
+print(numbers)
+
+#type2 to access items by index
+numbers = array("i", [1, 2, 3])
+numbers[0] = 5
+print(numbers)
