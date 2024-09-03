@@ -309,3 +309,24 @@ for x in range(5):
 
 values = {x: x * 2 for x in range(5)}
 print(values)
+
+
+
+
+#Generator Expressions
+values = [x * 2 for x in range(10)]
+for x in values:
+    print(x)
+
+#We cannot use the above method for very large values like for eg. "range(billion)"
+values = (x * 2 for x in range(10))
+print(values)  #---> we get generator object
+for x in values:
+    print(x)
+
+#to get the size of the generator object
+from sys import getsizeof
+values = (x * 2 for x in range(1000000))
+print("gen:", getsizeof(values))
+values = [x * 2 for x in range(1000000)]
+print("list:", getsizeof(values))
