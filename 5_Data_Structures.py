@@ -224,3 +224,15 @@ if 10 in point:
     print("Exists")
 else:
     print("Not Exists")
+
+#Swapping Numbers
+x = 10
+y = 11
+
+#we can use any method to swap the numbers
+x, y = y, x #---> method 1
+
+x, y = (11, 10) #---> method 2
+
+print("x", x)
+print("y", y)
