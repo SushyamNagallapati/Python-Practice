@@ -192,3 +192,15 @@ if not browsing_session:
     print("disable")
 else:
     print("Good to go")
+
+#Queues
+from collections import deque
+queue = deque([])
+queue.append(1)
+queue.append(2)
+queue.append(3)
+queue.append(4)
+queue.popleft() #---> popoleft is used to remove items from left
+print(queue)
+if not queue:
+    print("empty")
