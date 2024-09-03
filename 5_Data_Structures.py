@@ -286,3 +286,26 @@ print(point)
 for key, value in point.items():
     print(key, value)
 
+
+#Dictionary Comprehensions
+#type1
+# values = []
+# for x in range(5):
+#     values.append(x * 2)
+# print(values)
+
+values = {}
+for x in range(5):
+    values[x] = x * 2
+
+# type 2 We can use a map function or a list comprehension to simplify the code
+
+# [expression for item in items] #--> "[]" sq brackets is used to define list
+
+# values = [x * 2 for x in range(5)] #---> This line of code is same as type1
+
+# if we replace [] with curly brackets {} we get "set"
+# values = {x * 2 for x in range(5)}
+
+values = {x: x * 2 for x in range(5)}
+print(values)
