@@ -151,3 +151,18 @@ items = [
 ]
 prices = list(filter(lambda item: item[1] >= 10, items))
 print(prices)
+
+#List Comprehension ----> This method is same as map and filter function. We can use this function for neat explanation
+items = [
+    ("Product1", 10),
+    ("Product2", 8),
+    ("Product3", 50),
+]
+prices = list(map(lambda item: item[1], items))
+prices = [item[1] for item in items] #----> usage of map function is converted to List comprehension
+print(prices)
+      
+      
+x = list(filter(lambda item: item[1] >= 10, items))
+x = [item for item in items if item[1] >= 10] #---> usage of filter function is converted to List comprehension
+print(x)
