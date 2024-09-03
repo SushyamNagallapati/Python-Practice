@@ -330,3 +330,28 @@ values = (x * 2 for x in range(1000000))
 print("gen:", getsizeof(values))
 values = [x * 2 for x in range(1000000)]
 print("list:", getsizeof(values))
+
+
+#Unpacking Operator "*" and "**"
+numbers = [1, 2, 3]
+print(*numbers)
+print(1, 2, 3)
+
+#Another useful application of this is we can unpack lists as well as strings
+# values = list(range(5))
+values = [*range(5), *"Hello"]
+print(values)
+
+#Using unpacking operator we can combine multiple lists
+first = [1, 2]
+second = [3]
+values = [*first, "a", *second, *"hello"]
+print(values)
+
+#To unpack Dictionaries we need to use two asterisks "**"
+first = {"x": 1}
+second = {"x": 10, "y": 2}
+combined = {**first, **second, "z": 3}
+print(combined) 
+#We can use the unpacking operator to take out individual values in any iterable
+
