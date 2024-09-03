@@ -249,3 +249,24 @@ print(numbers)
 numbers = array("i", [1, 2, 3])
 numbers[0] = 5
 print(numbers)
+
+
+#Sets
+#type 1
+numbers = [1, 1, 2, 3, 4]
+uniques = set(numbers)
+print(uniques)
+
+#type2
+numbers = [1, 1, 2, 3, 4]
+first = set(numbers)
+second = {1, 5}
+print(first | second) #---> Vertical bar "|"
+print(first & second) #---> Intersection of two sets "&"
+print(first - second) #---> To get the Difference btw two sets "-"
+print(first ^ second) #---> Symmetric Difference "^", Refer book to know the function of the symbols.
+
+if 1 in first:   
+    print("Yes")
+else:
+    print("No")
