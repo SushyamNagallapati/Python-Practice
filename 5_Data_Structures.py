@@ -204,3 +204,23 @@ queue.popleft() #---> popoleft is used to remove items from left
 print(queue)
 if not queue:
     print("empty")
+
+#Tuples ---> Refer notebook
+point = (1, 2)
+print(type(point))
+#type1 example1
+point = (1, 2) + (3, 4) + (5, 6)  #---> We can concatenate tuples
+print(point)
+#type2 example2
+point = tuple([1, 2])
+print(point)
+#type3 example3
+point = tuple("Hello World")
+print(point)
+#type4 example4
+point = (1, 2, 3)
+x, y, z = point
+if 10 in point:
+    print("Exists")
+else:
+    print("Not Exists")
