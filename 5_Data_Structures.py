@@ -141,3 +141,13 @@ prices = list(map(lambda item: item[1], items))
 print(prices)
 for item in prices:
     print(item)
+
+
+#Filter Function
+items = [
+    ("Product1", 10),
+    ("Product2", 8),
+    ("Product3", 50),
+]
+prices = list(filter(lambda item: item[1] >= 10, items))
+print(prices)
