@@ -166,3 +166,10 @@ print(prices)
 x = list(filter(lambda item: item[1] >= 10, items))
 x = [item for item in items if item[1] >= 10] #---> usage of filter function is converted to List comprehension
 print(x)
+
+#Zip Function
+list1 = [1, 2, 3]
+list2 = [10, 20, 30]
+print(list(zip(list1, list2)))
+
+print(list(zip("abc", list1, list2))) #--->  We can also pass a string 
