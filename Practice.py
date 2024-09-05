@@ -80,3 +80,34 @@ if is_prime:
 else:
     print("%d Is not a prime number"%num)
 
+
+
+
+# How to display the character numbers of each letter
+# sentence = "This is a common interview question"
+
+from pprint import pprint
+sentence = "This is a common interview question"
+
+char_frequency = {}
+for char in sentence:
+    if char in char_frequency:
+        char_frequency[char] += 1
+    else:
+        char_frequency[char] = 1
+char_frequency_sorted = sorted(char_frequency.items(), key=lambda kv: kv[1], reverse = True)
+print(char_frequency_sorted[0])
+
+#Try 
+from pprint import pprint
+name = "Sushyam Nagallapati"
+char_frequency = {}
+for char in name:
+    if char in char_frequency:
+        char_frequency[char] +=1
+    else:
+        char_frequency[char] = 1
+char_frequency_sorted = sorted(char_frequency.items(), key=lambda kv: kv[1], reverse = True)
+print(char_frequency_sorted[0])
+
+
