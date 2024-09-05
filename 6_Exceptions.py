@@ -41,14 +41,22 @@ finally:
 #The With Statement
 try:                                      #Compare with above code  
     with open("6_Exceptions.py") as file: #--> Whenever we open a file using the with statement Python will automatically call file.close, whether we have a final clause or not.
-        print("File opened")
-        
+        print("File opened")  
+
     age = int(input("Age: "))
     xfactor = 10 / age
 except (ValueError, ZeroDivisionError):
     print("You didn't enter a valid age")
 else:
     print("No exceptions were thrown")
+
+
+#Raising Exceptions
+def calculate_xfactor(age):
+    if age <= 0:
+        raise ValueError("Age cannot be 0 or less") #---> This function raises or throws an exception, if we give it an invalid argument
+    return 10 / 0
+
 
 
 
