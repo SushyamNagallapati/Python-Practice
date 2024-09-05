@@ -38,6 +38,20 @@ finally:
     file.close() #---> Finally is used because it mentions, at the end close the file after all the process
 
 
+#The With Statement
+try:                                      #Compare with above code  
+    with open("6_Exceptions.py") as file: #--> Whenever we open a file using the with statement Python will automatically call file.close, whether we have a final clause or not.
+        print("File opened")
+        
+    age = int(input("Age: "))
+    xfactor = 10 / age
+except (ValueError, ZeroDivisionError):
+    print("You didn't enter a valid age")
+else:
+    print("No exceptions were thrown")
+
+
+
 
 
 
