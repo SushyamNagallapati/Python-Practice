@@ -114,3 +114,32 @@ point = Point(10, 20)
 other = Point(1, 2)
 combined = point + other
 print(combined.x, combined.y)
+
+
+#Making custom Containers
+class TagCloud:
+    def __init__(self):
+        self.tags = {}
+
+    def add(self, tag):
+        self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1  #lower() is used to print the word whether its upper or lower case Eg. check line 142
+
+    def __getitem__(self, tag):   #With __getitem__ we can easily get the numer of the given tag Eg. word python in line 140
+        return self.tags.get(tag.lower(), 0)
+    
+    def __setitem__(self, tag, count): #With __setitem__ we can set the number of the given tag Eg. check line 140 we have set the value as 10
+        self.tags[tag.lower()] = count
+
+    def __len__(self):   #We can use __len__ is used to get the number of items in the tag cloud Eg. line 141
+        return len(self.tags)
+    
+    def __iter__(self):  #__iter__ is used to iterate over a for loop 
+        return iter(self.tags) #An iterator object is an object that wants a container and gets out one item at a time
+
+cloud = TagCloud()
+cloud["python"] = 10
+len(cloud)
+cloud.add("Python")
+cloud.add("python")
+cloud.add("python")
+print(cloud.tags)
