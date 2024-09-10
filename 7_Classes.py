@@ -57,7 +57,7 @@ class Point:
         self.x = x
         self.y = y
 
-    @classmethod
+    @classmethod  #It is used to convert an instance method to a class method
     def zero(cls):
         return cls(0, 0)
     
@@ -175,3 +175,23 @@ cloud = TagCloud()
 # print(cloud.__dict__) #This gives the output, {'_TagCloud__tags': {}}
 #Finally we can print 
 print(cloud._TagCloud__tags)
+
+
+#Properties
+#A Property is an object that sits in front of an attribute and allows us to get or set the value of that attribute
+class Product:
+    def __init__(self, price):
+        self.price = price
+
+    @property  #It is used to create a property
+    def price(self):
+        return self.__price
+    
+    @price.setter
+    def price(self, value):
+        if value < 0:
+            raise ValueError("Price cannot be negative.")
+        self.__price = value
+ 
+product = Product(10)
+print(product.price)
