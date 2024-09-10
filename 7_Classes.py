@@ -143,3 +143,35 @@ cloud.add("Python")
 cloud.add("python")
 cloud.add("python")
 print(cloud.tags)
+
+
+#Private Members
+#So problem with this class is that it gives us access to the underlying dictionary that is used to keep track of the count of text.
+#To fix this problem, we need to hide this attributes from the outside, so we cannot access it.
+#To access it we have to use __ "double underscore" Eg. in below code we used __tags.
+#If we prefix some class members with double underscore"__" they are considered private. Even if its private we access it by using __dict__ (Explained below from line 172)
+class TagCloud:
+    def __init__(self):
+        self.__tags = {}
+
+    def add(self, tag):
+        self.__tags[tag.lower()] = self.__tags.get(tag.lower(), 0) + 1
+
+    def __getitem__(self, tag):
+        return self.__tags.get(tag.lower(), 0)
+    
+    def __setitem__(self, tag, count): 
+        self.__tags[tag.lower()] = count
+
+    def __len__(self):   
+        return len(self.__tags)
+    
+    def __iter__(self):   
+        return iter(self.__tags) 
+
+cloud = TagCloud()
+# print(cloud.__tags) #This gives the output, AttributeError: 'TagCloud' object has no attribute '__tags'
+#To access the private class we should use __dict__
+# print(cloud.__dict__) #This gives the output, {'_TagCloud__tags': {}}
+#Finally we can print 
+print(cloud._TagCloud__tags)
