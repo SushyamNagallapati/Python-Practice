@@ -292,3 +292,34 @@ class Bird(Animal):
 
 class Chicken(Bird):  #Chicken class inherits all the feature of the Bird class, but a chicken cannot fly. So this is known as inheritance abuse. While executing inheritance there shold be a valid reason.
     pass              #pass is a statement that doesn't do anything. We use this function because we cannot have a class without anything.
+
+
+#Multiple Inheritance
+class Employee:
+    def greet(self):
+        print("Employee Greet")
+
+
+class Person:
+    def greet(self):
+        print("Person Greet")
+
+class Manager(Employee, Person): #This code executes the print statement only from the first class which is executed, this is because both classes have same method(greet). 
+    pass
+
+manager = Manager()
+manager.greet()
+
+#example of mutiple inheritance
+class Flyer:
+    def fly(sel):
+        pass
+
+class Swimmer:
+    def swim(self):
+        pass
+
+class FlyingFish(Flyer, Swimmer):
+    pass
+       
+
