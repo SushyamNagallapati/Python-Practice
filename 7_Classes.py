@@ -218,3 +218,32 @@ class Fish(Animal):
 m = Mammal()
 m.eat()
 print(m.age)
+
+
+
+#The Object Class
+class Animal:
+    def __init__(self):
+        self.age = 1
+
+    def eat(self):
+        print("eat")
+
+#Animal: Parent, Base
+#Mammal: Child, Subclass
+class Mammal(Animal):
+    def walk(self):
+        print("walk")
+
+class Fish(Animal):
+    def swim(self):
+        print("swim")
+
+m = Mammal()
+f = Fish()
+m.eat()
+print(m.age)
+print(isinstance(m, Animal)) #isinstance tells us if an object is an instance of a given class (Animal = object)
+print(isinstance(f, object)) #Since animal is an object, the output is True even wen we use 
+print(issubclass(Mammal, Animal)) #Mammal is the subclass of animal, because it is derived from Animal
+print(issubclass(Fish, Animal))
