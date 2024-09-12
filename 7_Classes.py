@@ -247,3 +247,35 @@ print(isinstance(m, Animal)) #isinstance tells us if an object is an instance of
 print(isinstance(f, object)) #Since animal is an object, the output is True even wen we use 
 print(issubclass(Mammal, Animal)) #Mammal is the subclass of animal, because it is derived from Animal
 print(issubclass(Fish, Animal))
+
+
+
+
+#Method Overriding
+class Animal:
+    def __init__(self):
+        print("Animal Constructor")
+        self.age = 1
+
+    def eat(self):
+        print("eat")
+
+#Animal: Parent, Base
+#Mammal: Child, Subclass
+class Mammal(Animal):
+    def __init__(self):
+        print("Mammal Constructor")
+        self.weight = 2
+        super().__init__() #super() is used to give access to methods and properties of a parent or sibling class. The super() function returns an object that represents the parent class.
+
+    def walk(self):
+        print("walk")
+
+class Fish(Animal):
+    def swim(self):
+        print("swim")
+
+m = Mammal()
+# m.eat()
+print(m.age)
+print(m.weight)
