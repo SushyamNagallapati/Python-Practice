@@ -279,3 +279,16 @@ m = Mammal()
 # m.eat()
 print(m.age)
 print(m.weight)
+
+
+#Multi-level Inheritance
+class Animal:
+    def eat(self):
+        print("eat")
+
+class Bird(Animal):
+    def fly(self):
+        print("fly")
+
+class Chicken(Bird):  #Chicken class inherits all the feature of the Bird class, but a chicken cannot fly. So this is known as inheritance abuse. While executing inheritance there shold be a valid reason.
+    pass              #pass is a statement that doesn't do anything. We use this function because we cannot have a class without anything.
