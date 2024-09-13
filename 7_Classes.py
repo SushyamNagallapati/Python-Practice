@@ -426,3 +426,24 @@ def draw(controls):
 ddl = DropDownList()
 textbox = TextBox()
 draw([ddl, textbox])
+
+
+
+#Duck Typing - Is a concept where the type (or) class of an object is less important than the methods it implements. [Refer Polymorphism method]
+from abc import ABC, abstractmethod
+
+class TextBox:
+    def draw(self):
+        print("TextBox")
+
+class DropDownList:
+    def draw(self):
+        print("DropDownList")
+
+def draw(controls):  
+    for control in controls:
+        control.draw()
+
+ddl = DropDownList()
+textbox = TextBox()
+draw([ddl, textbox])
