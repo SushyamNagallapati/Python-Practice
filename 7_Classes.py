@@ -447,3 +447,25 @@ def draw(controls):
 ddl = DropDownList()
 textbox = TextBox()
 draw([ddl, textbox])
+
+
+
+#Extending Built-in Types
+class Text(str):
+    def duplicate(self):
+        return self + self  #self represents the current object, which is in this case an instance of a string class. Here we are concatenating a string with itself.
+
+#Example 1 - To extend python strings
+text = Text("Python")
+print(text.lower())  #The text object has all the methods of python strings
+print(text.capitalize())
+print(text.duplicate())
+
+#Example 2 - To extend python lists
+class TrackableList(list):
+    def append(self, object):
+        print("Append called")
+        super().append(object)
+
+list = TrackableList()
+list.append("1")
