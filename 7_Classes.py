@@ -469,3 +469,36 @@ class TrackableList(list):
 
 list = TrackableList()
 list.append("1")
+
+
+
+
+#Data Classes
+#type 1
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __eq__ (self, other):  
+        return self.x == other.x and self.y == other.y
+    
+
+p1 = Point(1, 2)
+p2 = Point(1, 2)
+print(id(p1)) #id function returns the address of the memory location where an object is stored.
+print(id(p2))
+
+print(p1 == p2)
+
+#type 2 - Simple and clear explanation (in this code we don't have to use a magic method)
+#if we are going to deal with classes that have no behaviour, no methods, they only have data we can use a namedtuple instance.
+from collections import namedtuple #From collections module we are importing namedtuple
+
+Point = namedtuple("Point", ["x", "y"])  #as a first argument we specify name for the new type that we create, it is called as Point(which is a string), 
+                                         #as a second argument we are passing an array of filled names or attribute names(x and y).
+
+p1 = Point(x=1, y=50) #We should pass keyword argument(x=1, y=2), instead of passing arbitary values(1, 2)
+print(p1.y)
+p2 = Point(x=1, y=2)
+print(p1 == p2)
