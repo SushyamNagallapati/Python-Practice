@@ -4,7 +4,7 @@ from pathlib import Path #From pathlib we can import path class
 
 # Path() #We can create a path object that represents the current forlder
 # #or
-path = Path("ecommerce/__init__.py") #We can use a related path here
+path = Path("ecommerce/__init__.py") #We can use a related path here [ecommerce/__init__.py - is an example of path]
 path.exits() #esists method is used to see if the file (or) directory exists or not
 path.is_file() #it is used to check if the path represents a file
 path.is_dir()
@@ -15,5 +15,6 @@ print(path.parent) #path.parent is used to get the parent of the path
 path = path.with_name("file.txt") #path.with_name is used to create a new path object based on the existing path but only change the name and extension of the file
 path = path.with_suffix(".txt") #path.with_suffix is used change the extension of the file
 print(path.absolute()) #path.absolute is to get the absolute value the path
+
 
 
