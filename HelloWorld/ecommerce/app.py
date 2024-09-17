@@ -173,3 +173,19 @@ send_emails()
 end = time.time()
 duration = end - start
 print(duration) #we will get the amount of time it took to execute the function
+
+
+#Working with DateTimes
+from datetime import datetime
+import time
+#Different types of methods to print the date and time
+dt = datetime(2000, 1, 1) #we can write what to print in the output
+dt = datetime.now() #this returns the current datetime
+dt = datetime.strptime("2018/01/01", "%Y/%m/%d") #strptime is used for converting string to a datetime object. This is useful when we get input from the user or read it from the file.
+dt = datetime.fromtimestamp(time.time()) 
+# print(dt)
+
+print(f"{dt.year}/{dt.month}")
+print(dt.strftime("%Y/%m")) #strftime is used to convert a datetime object to a string.
+
+
