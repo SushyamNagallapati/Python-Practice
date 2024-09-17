@@ -189,3 +189,15 @@ print(f"{dt.year}/{dt.month}")
 print(dt.strftime("%Y/%m")) #strftime is used to convert a datetime object to a string.
 
 
+#Working with TimeDeltas
+from datetime import datetime, timedelta
+
+dt1 = datetime(2024, 9, 1) 
+# dt1 = datetime(2024, 9, 1) + timedelta(days=1, seconds=1000) #We can also add datetime with timedelta.
+# print(dt1)
+dt2 = datetime.now()
+duration = dt2 - dt1
+print(duration)
+print("Days", duration.days)
+print("Seconds", duration.seconds)
+print("Total_seconds", duration.total_seconds()) #here total_second() is a method, not an attribute.
