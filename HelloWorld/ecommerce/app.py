@@ -280,3 +280,14 @@ with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp: #smtp is the host fo
     smtp.login("sairaju23hhjjk@gmail.com", "sai445544") #We pass the username and password here
     smtp.send_message(message) #this is used to send the message
     print("Sent...")
+
+
+
+#Command-line Arguments
+import sys
+
+if len(sys.argv) == 1:  #len is used to get the length of the array
+    print("USAGE: python3 app.py <password>")
+else:
+    password = sys.argv[1]
+    print("Password", password)
