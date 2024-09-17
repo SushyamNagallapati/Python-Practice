@@ -158,3 +158,18 @@ with sqlite3.connect("db.sqlite3") as conn:
         print(row)
     movies = cursor.fetchall() #fetchall returns all the rows in the table in one go
     print(movies)
+
+
+#Working with timestamps
+import time
+# print(time.time()) #this returns a floating number
+
+def send_emails():
+    for i in range(100000):
+        pass
+    
+start = time.time()
+send_emails()
+end = time.time()
+duration = end - start
+print(duration) #we will get the amount of time it took to execute the function
