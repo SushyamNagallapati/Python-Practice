@@ -221,3 +221,10 @@ print("".join(random.choices(string.ascii_letters + string.digits, k=4))) #this 
 numbers = [1, 2, 3, 4]
 random.shuffle(numbers) #this method is used to shuffle an array
 print(numbers)
+
+
+
+#Opening the Browser
+import webbrowser
+print("Deployment Completed")
+webbrowser.open("http://google.com")
