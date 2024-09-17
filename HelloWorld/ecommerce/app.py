@@ -136,3 +136,25 @@ movies = json.loads(data) #this will return an array of dictionaries
 print(movies)
 print(movies[0]) #we can get any items from the array
 print(movies[1] ["title"]) #we can get value of any of the keys
+
+#Working with SQLite Database
+import sqlite3
+import json
+from pathlib import Path
+
+# movies = json.loads(Path("movies.json").read_text())
+
+# with sqlite3.connect("db.sqlite3") as conn:
+#     command = "INSERT INTO Movies VALUES(?, ?, ?)" #[to insert the table]three question marks refer for id, title and price
+#     for movie in movies:
+#         conn.execute(command, tuple(movie.values()))
+#     conn.commit()
+
+#To read data from Database
+with sqlite3.connect("db.sqlite3") as conn:
+    command = "SELECt * FROM Movies" #To select all the movies 
+    cursor = conn.execute(command) #cursor is an iterable object, we can iterate over it
+    for row in cursor:
+        print(row)
+    movies = cursor.fetchall() #fetchall returns all the rows in the table in one go
+    print(movies)
