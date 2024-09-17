@@ -201,3 +201,23 @@ print(duration)
 print("Days", duration.days)
 print("Seconds", duration.seconds)
 print("Total_seconds", duration.total_seconds()) #here total_second() is a method, not an attribute.
+
+
+
+
+#Generating Random Values
+import random  #we imported random module
+import string
+print(random.random())  #this random module has a random method[random()] that generates a random value between 0 and 1
+print(random.randint(1, 10)) #this randint generates a random integer between two numbers
+print(random.choice([1, 2, 3, 4])) #This choice method takes an array and randomly picks one of the items from the array
+print(random.choices([1, 2, 3, 4], k=2)) #This choices method selects multiple values from the array
+print(random.choices("sushyamsai", k=4)) #This choices method can also be used to generate from string
+print("".join(random.choices("sushyamsai", k=4))) #this is used to generate random password from the given string. We can also add comma(,) between the quotes ie. "," to get the output with comma in between
+# print(string.ascii_letters) #this prints all the letters with lowercase and uppercase
+# print(string.digits) #this prints values from 0 to 9
+print("".join(random.choices(string.ascii_letters + string.digits, k=4))) #this is better than line 216
+
+numbers = [1, 2, 3, 4]
+random.shuffle(numbers) #this method is used to shuffle an array
+print(numbers)
