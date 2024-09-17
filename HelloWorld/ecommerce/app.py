@@ -228,3 +228,25 @@ print(numbers)
 import webbrowser
 print("Deployment Completed")
 webbrowser.open("http://google.com")
+
+
+
+#Sending Emails
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText #this is used to set the body 
+from email.mime.image import MIMEImage #this is used to attach an image
+from pathlib import Path #To send an image we have to create a folder (i didnt create one)
+import smtplib
+
+message = MIMEMultipart() 
+message["from"] = "Sushyam Sai"
+message["to"] = "sairaju23hhjjk@gmail.com"
+message["subject"] = "This is a test"
+message.attach(MIMEText("Body"))
+message.attach(MIMEImage(Path("Sai.png").read_bytes))
+with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp: #smtp is the host for sending the mail, so we have to import smtp above ie. smtplib
+    smtp.ehlo() #this is an hello or greeting to the smtp server
+    smtp.starttls() #this puts the smtp connection to tls mode. tls stands for "Transport Layer Security", with this all the commands that we send to the smtp server will be encrypted
+    smtp.login("sairaju23hhjjk@gmail.com", "sai445544") #We pass the username and password here
+    smtp.send_message(message) #this is used to send the message
+    print("Sent...")
