@@ -290,4 +290,4 @@ if len(sys.argv) == 1:  #len is used to get the length of the array
     print("USAGE: python3 app.py <password>")
 else:
     password = sys.argv[1]
-    print("Password", password)
+    print("Password", password) #This prints the password that we type
