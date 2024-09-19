@@ -354,3 +354,8 @@ print(response) #when we run the program, if we get "<Response [200]>", the inst
 # Refer video
 # It says about how to see the version of pipfile which we are using
 # How to update the requests or dependencies
+
+
+
+#Publishing Packages
+# How to publish our package in pypi.org - refer video
