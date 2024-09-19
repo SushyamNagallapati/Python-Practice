@@ -357,5 +357,10 @@ print(response) #when we run the program, if we get "<Response [200]>", the inst
 
 
 
-#Publishing Packages
+# Publishing Packages
 # How to publish our package in pypi.org - refer video
+
+
+
+# Docstrings
+# Refer video
