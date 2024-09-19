@@ -337,11 +337,13 @@ print(response) #when we run the program, if we get "<Response [200]>", the inst
 
 
 
-#Pipenv
-#Refer Video
+# Pipenv
+# Refer Video
 
 
-#Virtual Environment in VSCode
-#Refer video
+# Virtual Environment in VSCode
+# Refer video
 
 
+# Pipfile
+# Refer video - Taught about the Pipfile and Pipfile.lock
