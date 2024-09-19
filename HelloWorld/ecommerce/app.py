@@ -314,3 +314,19 @@ completed = subprocess.run(["ls", "-l"],
                           capture_output=True,
                           text=True)
 #Refer video.
+
+
+
+
+
+#Python Package Index
+#Pypi - #if we need features that are not implemented in Python standard library, thats where we use pypi (or) python package index
+        #Pypi is a repository of python packages built by people
+        #refer pypi.org
+
+
+#Pip - sucessfully installed latest version of pip and requests by seeing the video
+import requests
+response = requests.get("http://google.com")
+print(response) #when we run the program, if we get "<Response [200]>", the installed resquests are working successfully.
+
