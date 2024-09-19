@@ -347,3 +347,10 @@ print(response) #when we run the program, if we get "<Response [200]>", the inst
 
 # Pipfile
 # Refer video - Taught about the Pipfile and Pipfile.lock
+
+
+
+# Managing Dependencies
+# Refer video
+# It says about how to see the version of pipfile which we are using
+# How to update the requests or dependencies
