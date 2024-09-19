@@ -291,3 +291,26 @@ if len(sys.argv) == 1:  #len is used to get the length of the array
 else:
     password = sys.argv[1]
     print("Password", password) #This prints the password that we type
+
+
+
+
+#Running External Programs
+import subprocess #with this module we can spot a child process. A process is an instance of a running program, so with this module we can run other programs.
+
+#there are bunch of functions or methods in this module. these methods are known as helper methods to create an instance
+# subprocess.call
+# subprocess.check_call
+# subprocess.check_output
+# subprocess.Popen #The above mentioned call, check_call, check_output and other methods are known as helper methods to create an instance of the Popen class process open
+
+completed = subprocess.run(["ls", "-l"])  #this method is the newer method that is used to create an instance for the Popen class. #when we run this, we get the output as file name, creatiom date and others
+print("args", completed.args) #args is an array that includes the command that we executed (in output)
+print("returncode", completed.returncode) #returncode is zero, which means success, any non-zero values indicates an error (in output)
+print("stderr", completed.stderr) #In the above cases there are no errors, so standard error is None, otherrwise we would get an error message (in output)
+print("stdout", completed.stdout) #standardoutput is also none because we are not capturing the output, the output is automatically printed on the terminal window (in output)
+
+completed = subprocess.run(["ls", "-l"],
+                          capture_output=True,
+                          text=True)
+#Refer video.
