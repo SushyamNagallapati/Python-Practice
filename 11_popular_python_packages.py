@@ -32,3 +32,11 @@
 
 #-> How to hide the API key by creating a config.py file and .gitignore
 #-> We should not share the API key in public
+
+
+
+#6. Sending Text Messages
+
+#-> How create Twilio account
+#-> With Twilio we can get a free access phone number, with this no. we can send messages, call, ect...
+#-> In VSCode we have to hide the API
