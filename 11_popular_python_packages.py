@@ -49,3 +49,11 @@
 #-> In that situation, the only way to get the data we want is to parse the html behind the webpage, get rid of all thhe html tags
 #   and extract the actual data. This technique is called Web Scrapping
 #-> In the video, we will learn how to scrap the questions from StackOverflow, in detail.
+
+
+
+#8. Browser Automation
+
+#-> Selenium - With this we can automate our browser, so we can write a bunch of scripts to test various functions on a website.
+#-> In video, Mosh taught how to sign in git hub by using VSCode
+#-> Refer link "https://selenium-python.readthedocs.io" - in this link read about the Waits and Page Objects
