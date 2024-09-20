@@ -93,3 +93,19 @@
 
 #-> So our methods should either be commands (or) queries, but not both
 #-> Explains the principal using the same spreadsheet as example
+
+
+
+
+#NumPy - Refer PyNumbers Repository in Git
+
+#-> How to create Multi-dimensional array
+
+#-> Methods for creating arrays and initializing 
+
+#-> Functions for performing computations on arrays
+
+#-> How to perform Arithematic operations with arrays and numbers
+
+#-> Real world example, on how to convert an array of dimension from inch to centimeter
+
