@@ -1,7 +1,7 @@
 #Refer notes
 
 #Explained about;
-#1. What are API's
+#2. What are API's
     
 #   API - Application Programming Interface
 #   These APIs are end points that are publicly accessible on the internet
@@ -14,3 +14,7 @@
 #        -> DELETE - for deleting data
 
 
+#3. Yelp API
+
+#-> Intro to Yelp
+#-> How to create an Yelp account
