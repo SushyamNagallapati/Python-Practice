@@ -82,3 +82,14 @@
 #-> How to insert a row and column at a given index
 #-> How to delete rows and columns
 #-> How to save in a new file
+
+
+
+
+#Command Query Separation Principle
+
+#-> This principle states that our methods (or) functions should either be commands that perform an action to change the state of a system, (or)
+#   queries that return an answer to the caller without changing the state (or) causing side effects
+
+#-> So our methods should either be commands (or) queries, but not both
+#-> Explains the principal using the same spreadsheet as example
