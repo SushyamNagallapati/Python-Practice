@@ -25,3 +25,10 @@
 #-> How to search businesses using Yelp API link
 #-> VSCode explanation
 #-> How to search the business by filter process
+
+
+
+#5. Hiding API Keys
+
+#-> How to hide the API key by creating a config.py file and .gitignore
+#-> We should not share the API key in public
