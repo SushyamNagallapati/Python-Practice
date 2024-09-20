@@ -40,3 +40,12 @@
 #-> How create Twilio account
 #-> With Twilio we can get a free access phone number, with this no. we can send messages, call, ect...
 #-> In VSCode we have to hide the API
+
+
+
+#7. Web Scrapping
+
+#-> Not every website has an API for us to work with.
+#-> In that situation, the only way to get the data we want is to parse the html behind the webpage, get rid of all thhe html tags
+#   and extract the actual data. This technique is called Web Scrapping
+#-> In the video, we will learn how to scrap the questions from StackOverflow, in detail.
