@@ -57,3 +57,28 @@
 #-> Selenium - With this we can automate our browser, so we can write a bunch of scripts to test various functions on a website.
 #-> In video, Mosh taught how to sign in git hub by using VSCode
 #-> Refer link "https://selenium-python.readthedocs.io" - in this link read about the Waits and Page Objects
+
+
+
+
+#Working with PDFs
+
+#-> How to open the pdf file
+#-> How to print the number of pages
+#-> How to rotate the page
+#-> How to add a page
+#-> How to merge/combine two PDF files
+
+
+
+#Working with Excel Spreadsheets
+
+#-> How to get the no. of sheets
+#-> How to create a worksheet
+#-> How to remove an existing worksheet
+#-> How to access individual cell (or) range of cells
+#-> How to change the value in the cell
+#-> How to add a row at the end of the sheet
+#-> How to insert a row and column at a given index
+#-> How to delete rows and columns
+#-> How to save in a new file
