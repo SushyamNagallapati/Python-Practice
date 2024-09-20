@@ -1,4 +1,4 @@
-#Refer notes
+#Refer notes and Video
 
 #Explained about;
 #2. What are API's
@@ -18,3 +18,10 @@
 
 #-> Intro to Yelp
 #-> How to create an Yelp account
+
+
+#4. Searching for Businesses
+
+#-> How to search businesses using Yelp API link
+#-> VSCode explanation
+#-> How to search the business by filter process
