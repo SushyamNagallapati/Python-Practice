@@ -341,5 +341,5 @@
 # #Refer Video
 
 
-#All programs are practiced in udemy and am doing One Python project everyday.
+#All programs are practiced in udemy and am doing One Python project everyday
 
