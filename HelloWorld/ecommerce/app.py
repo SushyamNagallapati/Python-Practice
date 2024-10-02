@@ -350,8 +350,8 @@
 
 #Practiced Day 1 Project:
 #Tasks revise;
-#1. Printing
-#2. String Manipulation
-#3. Inputs
-#4. Variables
-#5. Variable Naming
+#1. Printing.
+#2. String Manipulation.
+#3. Inputs.
+#4. Variables.
+#5. Variable Naming.
