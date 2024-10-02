@@ -345,3 +345,13 @@
 
 # All programs are practiced in udemy and am doing One Python project everyday.
 #Working on Projects(using basic concepts)
+
+
+
+#Practiced Day 1 Project:
+#Tasks revise;
+#1. Printing
+#2. String Manipulation
+#3. Inputs
+#4. Variables
+#5. Variable Naming
