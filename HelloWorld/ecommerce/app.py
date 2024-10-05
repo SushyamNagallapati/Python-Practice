@@ -349,7 +349,6 @@
 
 
 
-
 #Practiced Day 1 Project:
 #Tasks revise;
 #1. Printing.
@@ -357,3 +356,15 @@
 #3. Inputs.
 #4. Variables.
 #5. Variable Naming.
+#6. Band Name Generator Project
+
+
+
+
+#Practiced Day 2 Project:
+#Tasks revise;
+#1. Data Types
+#2. Type Error, Checking and Conversion
+#3. Mathematical Operations
+#4. Number Manipulation
+#5. Tip Calculator Project
