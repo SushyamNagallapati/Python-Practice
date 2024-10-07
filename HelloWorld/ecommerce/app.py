@@ -360,7 +360,6 @@
 
 
 
-
 #Practiced Day 2 Project:
 #Tasks revise;
 #1. Data Types
