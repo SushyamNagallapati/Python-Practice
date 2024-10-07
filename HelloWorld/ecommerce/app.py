@@ -367,3 +367,6 @@
 #3. Mathematical Operations
 #4. Number Manipulation
 #5. Tip Calculator Project
+
+
+#Day 8 completed, need to practice again
