@@ -369,4 +369,13 @@
 #5. Tip Calculator Project
 
 
-#Day 8 completed, need to practice again
+
+#Practiced Day 3 Project:
+#tasks revised;
+#1. If else
+#2. Modulo
+#3. Nesting and Elif
+#4. Multiple Ifs
+#5. Python Pizza
+#6. Logical Operators
+#7. Treasure Island Project 
