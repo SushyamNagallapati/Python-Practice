@@ -388,3 +388,11 @@
 #3. Banker Roulette
 #4. IndexError
 #5. Rock Paper Scissors Project
+
+
+
+#Practiced Day 5 Project
+#1. For Loops
+#2. Highest Score
+#3. For Loops with Range
+#4. Password Generator Project (Easy and Hard Level)
