@@ -379,3 +379,12 @@
 #5. Python Pizza
 #6. Logical Operators
 #7. Treasure Island Project 
+
+
+
+#Practiced Day 4 Project
+#1. Random Module
+#2. Lists
+#3. Banker Roulette
+#4. IndexError
+#5. Rock Paper Scissors Project
