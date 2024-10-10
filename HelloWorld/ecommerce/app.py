@@ -401,3 +401,12 @@
 
 
 
+#Practiced Day 6 Project
+#Tasks revised;
+#1. Defining and Calling Python Functions
+#2. The Hurdles Loop Challenge
+#3. Indentation in Python
+#4. While Loops
+#5. Hurdles Challenge using While Loops
+#6. Jumping over Hurdles with Variable Heights
+#7. Escaping the Maze Project
