@@ -371,7 +371,7 @@
 
 
 #Practiced Day 3 Project:
-#tasks revised;
+#Tasks revised;
 #1. If else
 #2. Modulo
 #3. Nesting and Elif
@@ -383,6 +383,7 @@
 
 
 #Practiced Day 4 Project
+#Tasks revised;
 #1. Random Module
 #2. Lists
 #3. Banker Roulette
@@ -392,7 +393,11 @@
 
 
 #Practiced Day 5 Project
+#Tasks revised;
 #1. For Loops
 #2. Highest Score
 #3. For Loops with Range
 #4. Password Generator Project (Easy and Hard Level)
+
+
+
