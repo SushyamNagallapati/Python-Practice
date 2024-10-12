@@ -410,3 +410,9 @@
 #5. Hurdles Challenge using While Loops
 #6. Jumping over Hurdles with Variable Heights
 #7. Escaping the Maze Project
+
+
+
+#Practiced Day 7 Project
+#Tasks revised;
+#How to build Hangman Project (Explained in 5 Steps)
