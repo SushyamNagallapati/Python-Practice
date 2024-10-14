@@ -416,3 +416,13 @@
 #Practiced Day 7 Project
 #Tasks revised;
 #How to build Hangman Project (Explained in 5 Steps)
+
+
+
+#Practiced Day 8 Project
+#Tasks revised;
+#1. Functions with Inputs
+#2. Positional vs Keyword Arguments
+#3. Caesar Cipher 1
+#4. Caesar Cipher 2
+#5. Caesar Cipher 3
