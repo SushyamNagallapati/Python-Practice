@@ -435,4 +435,4 @@
 #2. Nested Lists and Dictionaries
 #3. Blind Auction Project
 
-#Learnt Day 10 Project
+#Learnt Day 10 Project Calculator using Functions with Outputs
