@@ -436,3 +436,10 @@
 #3. Blind Auction Project
 
 #Learnt Day 10 Project Calculator using Functions with Outputs
+
+#Practiced Day 10 Project
+#Tasks revised;
+#1. Functions with Outputs
+#2. Multiple Return Values
+#3. Docstrings
+#4. Calculator Project
