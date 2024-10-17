@@ -444,4 +444,4 @@
 #3. Docstrings
 #4. Calculator Project
 
-#Practice Day 11 Project
+#Practice Day 11 Project It covers all the basic concepts
