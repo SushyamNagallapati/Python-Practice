@@ -445,3 +445,57 @@
 #4. Calculator Project
 
 #Practice Day 11 Project It covers all the basic concepts
+#Practiced the project and updated on Github Pythonlearning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
