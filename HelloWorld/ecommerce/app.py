@@ -444,7 +444,8 @@
 #3. Docstrings
 #4. Calculator Project
 
-#Practice Day 11 Project It covers all the basic concepts
+#Practiced Day 11 Project. It covers all the basic concepts
+#Refer Hints from 1 to 14, provided in the Task section, for more Practice
 #Practiced the project and updated on Github Pythonlearning
 
 
