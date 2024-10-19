@@ -450,6 +450,7 @@
 
 
 #Day 12 started
+#Topics - Global scope, Namspaces, Local varialble, Global variable
 
 
 
