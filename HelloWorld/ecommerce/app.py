@@ -452,7 +452,6 @@
 
 #Day 12 started
 #Topics - Global scope, Namspaces, Local varialble, Global variable
-
 #Need to work on number Guessing Project
 
 
