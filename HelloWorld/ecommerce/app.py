@@ -449,6 +449,7 @@
 #Practiced the project and updated on Github Pythonlearning
 
 
+
 #Day 12 started
 #Topics - Global scope, Namspaces, Local varialble, Global variable
 
