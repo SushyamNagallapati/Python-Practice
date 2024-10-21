@@ -472,6 +472,8 @@
 #9. Run Often
 #10. Ask StackOverflow
 
+#Exercises Based Debugging 
+
 
 
 
