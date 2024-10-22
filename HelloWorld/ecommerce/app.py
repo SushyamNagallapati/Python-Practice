@@ -476,6 +476,12 @@
 
 
 
+#Day 14
+#Completed Higher or Lower Project
+#Learnt new methods on how to tacle ideas
+
+
+
 
 
 
