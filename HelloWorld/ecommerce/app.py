@@ -471,8 +471,7 @@
 #8. Ask a Friend
 #9. Run Often
 #10. Ask StackOverflow
-
-#Exercises Based Debugging 
+# Exercises Based Debugging 
 
 
 
@@ -481,12 +480,11 @@
 #Learnt new methods on how to tacle ideas
 #Completed Type 1
 #Completed Type 2
-
-#Practiced Day 14 Project
-
+# Practiced Day 14 Project
 
 
 
+#Day 15 Coffee Machine Project started 
 
 
 
