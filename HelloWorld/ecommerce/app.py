@@ -488,6 +488,8 @@
 #Need to complete Project
 #Completed Day 15
 
+#Practiced Day 15 Coffee Machine Project - 1 time
+
 
 
 
