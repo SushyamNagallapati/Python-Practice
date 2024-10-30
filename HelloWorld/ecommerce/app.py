@@ -502,6 +502,8 @@
 #6. How to Add Python Packages and use PyPi
 #7. Practice Modifying Object Attributes and Calling Methods
 
+#Practiced 1 Time
+
 
 
 
