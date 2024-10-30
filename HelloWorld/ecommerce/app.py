@@ -493,7 +493,14 @@
 
 
 #Started Day 16
-
+#Topics
+#1. Why do we need OOP and how does it work
+#2. How to use OOP: Classes and Objects
+#3. Constructing Objects and Accessing their Attributes and Methods
+#4. Object Attributes
+#5. Object Methods
+#6. How to Add Python Packages and use PyPi
+#7. Practice Modifying Object Attributes and Calling Methods
 
 
 
