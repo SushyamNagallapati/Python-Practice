@@ -501,7 +501,7 @@
 #5. Object Methods
 #6. How to Add Python Packages and use PyPi
 #7. Practice Modifying Object Attributes and Calling Methods
-
+#Need to learn more about Classes, Objects and Methods
 #Practiced 1 Time
 
 
