@@ -520,6 +520,7 @@
 #1--> Creating the Question Class
 #2--> Creating the List of Question Objects from the Data
 #3--> The QuizBrain and the next_question() Method
+#4--> How to continue showing new Questions
 #Got some confidence on how to create Class, Methods and Attributes
 #Practiced Quiz Project 1 Time
 
