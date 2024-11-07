@@ -518,6 +518,7 @@
 #6. How to create Methods in Constructor
 #Project Methods
 #1--> Creating the Question Class
+#2--> Creating the List of Question Objects from the Data
 #Got some confidence on how to create Class, Methods and Attributes
 #Practiced Quiz Project 1 Time
 
