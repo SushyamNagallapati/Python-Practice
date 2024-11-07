@@ -516,7 +516,9 @@
 #4. Usage of Constructors and __init__() function
 #5. Example to use Attributes in Constructor
 #6. How to create Methods in Constructor
+#Got some confidence on how to create Class, Methods and Attributes
 #Practiced Quiz Project 1 Time
+
 
 
 
