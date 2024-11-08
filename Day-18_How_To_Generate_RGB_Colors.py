@@ -13,9 +13,6 @@ def random_color():
     random_color = (r, g, b)
     return random_color
 
-
-colors = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
-
 direction = [0, 90, 180, 270]
 
 sai.pensize(10)
@@ -26,7 +23,6 @@ for _ in range(200):
     sai.color(random_color())
     sai.forward(30)
     sai.setheading(random.choice(direction))
-
 
 
 
