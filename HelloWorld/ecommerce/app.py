@@ -534,6 +534,7 @@
 #2. Turtle Challenge 1 - Draw a Square
 #3. Importing Modules, Installing Packages, and Working with Aliases
 #4. Turtle Challenge 2 - Draw a Dashed Line
+#5. Turtle Challenge 3 - Drawing Different Shapes
 
 
 
