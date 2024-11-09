@@ -535,6 +535,7 @@
 #3. Importing Modules, Installing Packages, and Working with Aliases
 #4. Turtle Challenge 2 - Draw a Dashed Line
 #5. Turtle Challenge 3 - Drawing Different Shapes
+#6. Turtle Challenge 4 - Generate a Random Walk
 
 
 
