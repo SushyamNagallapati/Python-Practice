@@ -543,6 +543,9 @@
 #Practiced Hirst Project 1 Time
 
 
+#Started Day 19
+
+
 
 
 
