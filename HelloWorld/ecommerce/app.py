@@ -550,6 +550,7 @@
 #3. Higher Order Function
 #4. Object State and Instances
 #5. Understanding the Turtle Co-ordinate System
+#6. Turtle Race Project
 
 
 
