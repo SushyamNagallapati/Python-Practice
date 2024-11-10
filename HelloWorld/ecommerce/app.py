@@ -551,6 +551,7 @@
 #4. Object State and Instances
 #5. Understanding the Turtle Co-ordinate System
 #6. Turtle Race Project
+#Need to practice the project 
 
 
 
