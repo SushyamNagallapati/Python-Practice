@@ -546,6 +546,7 @@
 #Started Day 19
 #Topics
 #1. Python Higher Order Functions and Event Listeners
+#2. Function as Inputs
 
 
 
