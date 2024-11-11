@@ -543,6 +543,8 @@
 #Practiced Hirst Project 1 Time
 
 
+
+
 #Started Day 19
 #Topics
 #1. Python Higher Order Functions and Event Listeners
@@ -555,6 +557,8 @@
 
 
 
+
+#Started Day 20
 
 
 
