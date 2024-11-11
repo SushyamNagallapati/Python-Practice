@@ -564,6 +564,7 @@
 #2. How to Move the Snake
 #3. How to Create a Snake Class and Move to OOP
 #4. How to control the Snake
+# Completed Part 1 of the Snake Game Project
 
 
 
