@@ -561,6 +561,7 @@
 #Started Day 20
 #Topics
 #1. How to Create a Snake Body
+#2. How to Move the Snake
 
 
 
