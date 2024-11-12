@@ -568,7 +568,8 @@
 
 #Started Day 21
 #Topics
-#1. Inheritance
+#1. Class Inheritance
+#2. Detect Collision with Food
 
 
 
