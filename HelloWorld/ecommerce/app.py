@@ -573,6 +573,7 @@
 #3. Create a Scoreboard
 #4. Detect Collision with the Wall
 #5. Detect Collision with Tail
+#6. How to Slice Lists and Tuples in Python
 
 
 
