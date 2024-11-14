@@ -581,6 +581,7 @@
 #Topics
 #1. How to create a Screen
 #2. Create a Paddle that responds to Key Presses
+#3. Write a Paddle Class and Create the Second Paddle
 
 
 
