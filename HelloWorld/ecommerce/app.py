@@ -584,6 +584,7 @@
 #3. Write a Paddle Class and Create the Second Paddle
 #4. Write the Ball Class and make the Ball Move
 #5. Detect Collision with Wall and Bounce
+#6. How to detect Collision with Paddles
 
 
 
