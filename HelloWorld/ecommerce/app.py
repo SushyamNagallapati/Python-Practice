@@ -587,6 +587,8 @@
 #6. How to detect Collision with Paddles
 #7. How to detect when the Ball goes Out of Bounds(Detect when Paddle misses)
 #8. Score keeping and changing the Ball speed
+# Completed the Pong Game Project
+#Need to Practice
 
 
 
