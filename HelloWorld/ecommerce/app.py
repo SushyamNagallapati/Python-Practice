@@ -598,6 +598,7 @@
 #2. Create and Move the Cars
 #3. Detect Collision with Car
 #4. Detect when Turtle reaches the other side
+#5. Create a Scoreboard
 
 
 
