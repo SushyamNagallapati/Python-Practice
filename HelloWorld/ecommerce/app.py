@@ -575,6 +575,7 @@
 #5. Detect Collision with Tail
 #6. How to Slice Lists and Tuples in Python
 # Completed Snake Game Project 
+
 #Need to Practice
 
 
