@@ -609,6 +609,7 @@
 #Started Day 24
 #Topics
 #1. How to Add a High Score to the Snake Game
+#2. How to Open, Read, and Write to Files using the "with" Keyword
 
 
 
