@@ -606,6 +606,11 @@
 
 
 
+#Started Day 24
+#Topics
+#1. How to Add a High Score to the Snake Game
+
+
 
 
 
