@@ -575,7 +575,6 @@
 #5. Detect Collision with Tail
 #6. How to Slice Lists and Tuples in Python
 # Completed Snake Game Project 
-
 #Need to Practice
 
 
@@ -590,7 +589,6 @@
 #7. How to detect when the Ball goes Out of Bounds(Detect when Paddle misses)
 #8. Score keeping and changing the Ball speed
 # Completed the Pong Game Project
-
 #Need to Practice
 
 
@@ -601,7 +599,6 @@
 #3. Detect Collision with Car
 #4. Detect when Turtle reaches the other side
 #5. Create a Scoreboard
-
 #Need to Practice
 
 
@@ -626,6 +623,7 @@
 #5. U.S. States Game Part 2: Challenge with .csv
 #6. U.S. States Game Part 3: Saving Data to .csv
 #Completed the U.S. States Guessing Project
+#Need to Practice
 
 
 
