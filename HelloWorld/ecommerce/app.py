@@ -620,6 +620,7 @@
 #Started Day 25
 #Topics
 #1. Reading a CSV File
+#2. Data Frames and Series: Working with Rows and Columns
 
 
 
