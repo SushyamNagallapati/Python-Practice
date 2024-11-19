@@ -622,7 +622,7 @@
 #1. Reading a CSV File
 #2. Data Frames and Series: Working with Rows and Columns
 #3. The Great Squirrel Census Data Analysis (with Pandas!)
-
+#4. U.S. States Game Part 1: Setup
 
 
 
