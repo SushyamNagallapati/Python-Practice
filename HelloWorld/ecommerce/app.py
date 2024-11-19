@@ -610,6 +610,7 @@
 #Topics
 #1. How to Add a High Score to the Snake Game
 #2. How to Open, Read, and Write to Files using the "with" Keyword
+#3. Challenge: Read and Write the High Score to a File in Snake
 
 
 
