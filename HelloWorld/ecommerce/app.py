@@ -630,5 +630,7 @@
 #Started Day 26
 #Topics
 #1. How to Create Lists using List Comprehension
+#2. Apply List Comprehension to the U.S. States Game
+
 
 
