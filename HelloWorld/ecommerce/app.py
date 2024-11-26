@@ -651,7 +651,7 @@
 #3. Setting Default values for Optional Arguments inside a Function Header
 #4. *args: Many Positional Arguments
 #5. **kwargs: Many Keyword Arguments
-
+#6. Buttons, Entry, and Setting Component Options
 
 
 
