@@ -650,6 +650,7 @@
 #2. Creating Windows and Labels with Tkinter
 #3. Setting Default values for Optional Arguments inside a Function Header
 #4. *args: Many Positional Arguments
+#5. **kwargs: Many Keyword Arguments
 
 
 
