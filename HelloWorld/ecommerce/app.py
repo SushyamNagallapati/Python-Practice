@@ -644,6 +644,7 @@
 #Need to Practice
 
 
+
 #Started Day 27
 #Topics
 #1. History of GUI and Intro to Tkinter
@@ -652,6 +653,7 @@
 #4. *args: Many Positional Arguments
 #5. **kwargs: Many Keyword Arguments
 #6. Buttons, Entry, and Setting Component Options
+#7. Other Tkinter Widgets: Radiobuttons, Scales, Checkbuttons and More
 
 
 
