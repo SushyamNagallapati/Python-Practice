@@ -672,3 +672,5 @@
 #5. Setting Different Time sessions and Values
 #6. Adding Check Marks and Re-setting the Application
 #Completed the Pomodoro GUI Project
+
+#Need to Practice
