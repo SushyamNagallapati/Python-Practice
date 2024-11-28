@@ -669,3 +669,4 @@
 #2. Challenge - Complete the UI
 #3. Add a Count Down Mechanism
 #4. Dynamic Typing Explained
+#5. Setting Different Time sessions and Values
