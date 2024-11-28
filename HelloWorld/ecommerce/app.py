@@ -668,3 +668,4 @@
 #1. How to work with Canvas Widget and Add images to Tkinter
 #2. Challenge - Complete the UI
 #3. Add a Count Down Mechanism
+#4. Dynamic Typing Explained
