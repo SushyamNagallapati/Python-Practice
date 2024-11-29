@@ -686,3 +686,5 @@
 #4. Dialog Boxes and Pop-Ups in Tkinter
 #5. Generate a Password and Copy it to the Clipboard
 #Completed the Password Manager Project
+
+#Need to Practice
