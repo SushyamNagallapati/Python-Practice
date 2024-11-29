@@ -682,3 +682,4 @@
 #Topics
 #1. Challenge 1 - Working with Images and Setting up the Canvas
 #2. Challenge 2 - Use grid() and columnspan() to complete the User Interface
+#3. Challenge 3 - Saving Data to File
