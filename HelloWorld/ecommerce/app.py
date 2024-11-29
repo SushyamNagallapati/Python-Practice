@@ -684,3 +684,4 @@
 #2. Challenge 2 - Use grid() and columnspan() to complete the User Interface
 #3. Challenge 3 - Saving Data to File
 #4. Dialog Boxes and Pop-Ups in Tkinter
+#5. Generate a Password and Copy it to the Clipboard
