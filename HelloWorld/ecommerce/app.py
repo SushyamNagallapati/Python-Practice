@@ -680,3 +680,4 @@
 
 #Started Day 29
 #Topics
+#1. Challenge 1 - Working with Images and Setting up the Canvas
