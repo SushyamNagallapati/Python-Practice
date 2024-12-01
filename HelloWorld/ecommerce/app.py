@@ -657,7 +657,6 @@
 #7. Other Tkinter Widgets: Radiobuttons, Scales, Checkbuttons and More
 #8. Tkinter Layout Managers: Pack(), Place() and Grid()
 # Completed Mile to Kilometer converter Project
-
 #Need to Pactice
 
 
