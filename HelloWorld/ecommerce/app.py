@@ -691,3 +691,4 @@
 #Started Day 30
 #Topics
 #1. Catching Exceptions: The try catch except finally Pattern
+#2. Raising your own Exceptions
