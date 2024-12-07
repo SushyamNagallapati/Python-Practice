@@ -698,3 +698,4 @@
 #6. Write, Read and Update JSON Data in the Password Manager
 #7. Challenge 1 - handling Exceptions in the Password Manager
 #8. Challenge - 2 Search for a Website in the Password Manager
+#Completed the alteration of the Password Manager Project
