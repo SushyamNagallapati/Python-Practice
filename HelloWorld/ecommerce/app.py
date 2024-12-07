@@ -696,3 +696,4 @@
 #4. Coding Exercise - KeyError Handling
 #5. Code Exercise: Exception Handling in the NATO Phonetic Alphabet Project
 #6. Write, Read and Update JSON Data in the Password Manager
+#7. Challenge 1 - handling Exceptions in the Password Manager
