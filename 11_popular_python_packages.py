@@ -1,6 +1,7 @@
 # Refer notes and Video
 
 # Explained about;
+
 # 2. What are API's
 
 #   API - Application Programming Interface
