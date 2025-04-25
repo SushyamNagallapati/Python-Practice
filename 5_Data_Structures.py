@@ -2,8 +2,10 @@
 letters = ["a", "b", "c", "d"]      #Lists are used to store multiple items in a single variable
 print(letters)
 
+
 matrix = [[0, 1], [2, 5], [4, 8]]
 print(matrix)
+
 
 zeros = [0] * 10
 combined = zeros + letters
